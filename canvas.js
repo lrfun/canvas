@@ -78,7 +78,7 @@ function drawClock(){
   // 时针
   Canvas.save();
   Canvas.translate(300,350);
-  Canvas.lineWidth=5;
+  Canvas.lineWidth=6;
   Canvas.strokeStyle="#000";
   Canvas.rotate(hours*30*Math.PI/180);
   Canvas.beginPath();
@@ -91,7 +91,7 @@ function drawClock(){
   // 分针
   Canvas.save();
   Canvas.translate(300,350);
-  Canvas.lineWidth=5;
+  Canvas.lineWidth=4;
   Canvas.strokeStyle="#000";
   Canvas.rotate(mins*6*Math.PI/180);
   Canvas.beginPath();
@@ -104,7 +104,7 @@ function drawClock(){
   //秒针
   Canvas.save();
   Canvas.translate(300,350);
-  Canvas.lineWidth=3;
+  Canvas.lineWidth=2;
   Canvas.strokeStyle="#f00";
   Canvas.rotate(sec*6*Math.PI/180);
   Canvas.beginPath();
